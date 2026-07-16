@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="no" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Lokalt læringsmiljø for BED2 – Finansregnskap, høsten 2026.">
+    <meta name="theme-color" content="#f2f4f8">
+    <title>BED2 Læringsrom · Finansregnskap</title>
+    <script>
+      (function () {
+        const savedTheme = localStorage.getItem("bed2-theme");
+        const preferredTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        document.documentElement.dataset.theme = savedTheme || preferredTheme;
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/index-CRYuC1QP.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CCHg-RvD.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Hopp til hovedinnhold</a>
+
+    <svg class="icon-sprite" aria-hidden="true">
+      <symbol id="icon-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></symbol>
+      <symbol id="icon-book" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></symbol>
+      <symbol id="icon-cards" viewBox="0 0 24 24"><rect x="3" y="6" width="15" height="13" rx="2"/><path d="m7 6 1-3h12a2 2 0 0 1 2 2v10l-4 1"/></symbol>
+      <symbol id="icon-check" viewBox="0 0 24 24"><path d="m9 11 3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></symbol>
+      <symbol id="icon-function" viewBox="0 0 24 24"><path d="M4 18c4 0 4-12 8-12h2"/><path d="M6 10h8"/><path d="m15 15 5 5"/><path d="m20 15-5 5"/></symbol>
+      <symbol id="icon-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 11h18"/></symbol>
+      <symbol id="icon-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></symbol>
+      <symbol id="icon-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z"/></symbol>
+      <symbol id="icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41"/></symbol>
+      <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+      <symbol id="icon-play" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m10 8 6 4-6 4Z"/></symbol>
+      <symbol id="icon-file" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6"/></symbol>
+      <symbol id="icon-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+      <symbol id="icon-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+      <symbol id="icon-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+      <symbol id="icon-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+      <symbol id="icon-lock" viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></symbol>
+      <symbol id="icon-refresh" viewBox="0 0 24 24"><path d="M20 7v5h-5"/><path d="M4 17v-5h5"/><path d="M18.5 9a7 7 0 0 0-11.7-2.5L4 9M5.5 15a7 7 0 0 0 11.7 2.5L20 15"/></symbol>
+      <symbol id="icon-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
+      <symbol id="icon-spark" viewBox="0 0 24 24"><path d="m12 2 1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8L12 2Z"/><path d="m19 16 .8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8L19 16Z"/></symbol>
+      <symbol id="icon-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    </svg>
+
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar" aria-label="Hovedmeny">
+        <div class="brand-block">
+          <a class="brand" href="#dashboard" aria-label="BED2 Læringsrom, gå til oversikt">
+            <span class="brand-mark" aria-hidden="true"><span>B</span><span>2</span></span>
+            <span class="brand-copy"><strong>BED2</strong><small>Læringsrom</small></span>
+          </a>
+          <button class="icon-button sidebar-close" id="sidebar-close" type="button" aria-label="Lukk meny">
+            <svg><use href="#icon-close"/></svg>
+          </button>
+        </div>
+
+        <div class="course-chip">
+          <span class="eyebrow">HØST 2026</span>
+          <strong>Finansregnskap</strong>
+          <span class="status-line"><i aria-hidden="true"></i><span id="sync-label">Venter på Canvas-data</span></span>
+        </div>
+
+        <nav class="primary-nav" aria-label="Læringsverktøy">
+          <a href="#dashboard" data-route="dashboard"><svg><use href="#icon-grid"/></svg><span>Oversikt</span></a>
+          <a href="#goals" data-route="goals"><svg><use href="#icon-target"/></svg><span>Målreisen</span></a>
+          <a href="#modules" data-route="modules"><svg><use href="#icon-book"/></svg><span>Emner</span><span class="nav-count" id="module-count">–</span></a>
+          <a href="#notes" data-route="notes"><svg><use href="#icon-file"/></svg><span>Forelesningsnotater</span><span class="nav-count" id="note-count">–</span></a>
+          <a href="#flashcards" data-route="flashcards"><svg><use href="#icon-cards"/></svg><span>Flashcards</span></a>
+          <a href="#quiz" data-route="quiz"><svg><use href="#icon-check"/></svg><span>Quiz</span></a>
+          <a href="#formulas" data-route="formulas"><svg><use href="#icon-function"/></svg><span>Formelark</span></a>
+          <a href="#plan" data-route="plan"><svg><use href="#icon-calendar"/></svg><span>Studieplan</span></a>
+        </nav>
+
+        <div class="sidebar-progress" aria-labelledby="sidebar-progress-label">
+          <div class="progress-copy">
+            <span id="sidebar-progress-label">Din progresjon</span>
+            <strong id="sidebar-progress-value">0 %</strong>
+          </div>
+          <div class="progress-track" aria-hidden="true"><span id="sidebar-progress-bar"></span></div>
+          <small id="sidebar-progress-detail">0 av 0 H26-ressurser</small>
+        </div>
+
+        <div class="cloud-card">
+          <div class="cloud-status-line"><svg aria-hidden="true"><use href="#icon-lock"/></svg><span id="cloud-status">Lokal lagring er aktiv</span></div>
+          <button class="cloud-action" id="cloud-auth-open" type="button">Aktiver skylagring</button>
+        </div>
+      </aside>
+
+      <div class="sidebar-scrim" id="sidebar-scrim" hidden></div>
+
+      <main class="main-area" id="main-content">
+        <header class="topbar">
+          <button class="icon-button mobile-menu" id="mobile-menu" type="button" aria-label="Åpne meny" aria-expanded="false" aria-controls="sidebar">
+            <svg><use href="#icon-menu"/></svg>
+          </button>
+
+          <div class="global-search">
+            <label class="sr-only" for="global-search">Søk i hele læringsrommet</label>
+            <svg aria-hidden="true"><use href="#icon-search"/></svg>
+            <input id="global-search" type="search" autocomplete="off" placeholder="Søk i emner, filer, kort og formler …" aria-controls="search-results" aria-expanded="false">
+            <kbd aria-hidden="true">/</kbd>
+            <div class="search-results" id="search-results" hidden></div>
+          </div>
+
+          <div class="topbar-actions">
+            <span class="data-badge" id="data-badge"><i aria-hidden="true"></i> Klargjøres</span>
+            <button class="icon-button" id="theme-toggle" type="button" aria-label="Bytt til mørk modus">
+              <svg class="theme-icon theme-icon-moon"><use href="#icon-moon"/></svg>
+              <svg class="theme-icon theme-icon-sun"><use href="#icon-sun"/></svg>
+            </button>
+          </div>
+        </header>
+
+        <div class="view-container">
+          <section class="view" id="view-dashboard" data-view="dashboard" aria-labelledby="dashboard-title">
+            <div class="hero">
+              <div class="hero-copy">
+                <span class="eyebrow" id="today-label">DITT LÆRINGSROM</span>
+                <h1 id="dashboard-title">Gjør finansregnskap<br><em>håndterbart.</em></h1>
+                <p>12 kildebelagte emneleksjoner, 41 analyserte videoopptak, 90 flashcards, 84 oppgaver og et eksamensrettet formelark – samlet i én arbeidsflyt.</p>
+                <div class="hero-actions">
+                  <button class="button button-primary" type="button" data-go="modules">Se emneoversikt <svg><use href="#icon-arrow"/></svg></button>
+                  <button class="button button-quiet" type="button" data-go="goals">Jobb mot målet</button>
+                  <button class="button button-quiet" type="button" data-go="plan">Åpne studieplan</button>
+                  <a class="button button-quiet" href="BED2-H26-kapittelstartere.pdf" target="_blank" rel="noopener">Les kapittelstartere</a>
+                  <a class="button button-quiet" href="BED2-H26-komplett-kompendium.pdf" target="_blank" rel="noopener">Åpne kompendium</a>
+                </div>
+              </div>
+              <div class="hero-progress" aria-label="Samlet progresjon">
+                <div class="progress-ring" id="progress-ring" style="--progress:0">
+                  <span><strong id="hero-progress-value">0%</strong><small>fullført</small></span>
+                </div>
+                <div class="hero-progress-copy">
+                  <span>Samlet fremdrift</span>
+                  <strong id="hero-progress-count">0 av 0</strong>
+                  <small>H26-ressurser gjennomført</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="notice notice-pending" id="content-notice" role="status" hidden>
+              <span class="notice-icon" aria-hidden="true">i</span>
+              <div><strong>Canvas-gjennomgangen er fullført</strong><p>Alt tilgjengelig materiale er lest, analysert og koblet til læringsverktøyene.</p></div>
+            </div>
+
+            <div class="stat-grid" aria-label="Nøkkeltall">
+              <article class="stat-card"><span>Ressurser i H26-løpet</span><strong id="stat-resources">0</strong><small id="stat-resource-detail">Venter på Canvas</small></article>
+              <article class="stat-card"><span>Video igjen</span><strong id="stat-video">–</strong><small id="stat-video-detail">Ingen varighet registrert</small></article>
+              <article class="stat-card"><span>Quizmestring</span><strong id="stat-quiz">–</strong><small id="stat-quiz-detail">Ingen fagquiz tatt</small></article>
+              <article class="stat-card stat-card-accent"><span>Planlagte økter</span><strong id="stat-sessions">0</strong><small>Dine lokale studieoppgaver</small></article>
+            </div>
+
+            <section class="panel goal-preview" aria-labelledby="goal-preview-title">
+              <div class="goal-preview-copy">
+                <span class="goal-preview-icon" aria-hidden="true"><svg><use href="#icon-target"/></svg></span>
+                <div><span class="eyebrow">UKENS MÅL</span><h2 id="goal-preview-title">Gjør fremdriften synlig</h2><p id="dashboard-goal-copy">Marker videoer, filer, oppgaver og egne økter når de er ferdige.</p></div>
+              </div>
+              <div class="goal-preview-progress">
+                <div class="goal-preview-numbers"><strong id="dashboard-goal-value">0 / 8</strong><span>arbeidssteg denne uken</span></div>
+                <div class="progress-track"><span id="dashboard-goal-bar"></span></div>
+              </div>
+              <button class="button button-primary" type="button" data-go="goals">Åpne Målreisen <svg><use href="#icon-arrow"/></svg></button>
+            </section>
+
+            <div class="dashboard-grid">
+              <section class="panel panel-large" aria-labelledby="continue-title">
+                <div class="section-heading">
+                  <div><span class="eyebrow">NESTE STEG</span><h2 id="continue-title">Fortsett der du slapp</h2></div>
+                  <button class="text-button" type="button" data-go="modules">Se alle <svg><use href="#icon-arrow"/></svg></button>
+                </div>
+                <div id="continue-content"></div>
+              </section>
+
+              <section class="panel" aria-labelledby="priority-title">
+                <div class="section-heading">
+                  <div><span class="eyebrow">FOKUS</span><h2 id="priority-title">Bør prioriteres</h2></div>
+                </div>
+                <div id="priority-list"></div>
+              </section>
+            </div>
+
+            <section class="method-section" aria-labelledby="method-title">
+              <div class="section-heading method-heading">
+                <div><span class="eyebrow">ARBEIDSFLYT</span><h2 id="method-title">Fra nytt stoff til varig forståelse</h2></div>
+                <p>Bruk samme sløyfe i hvert av de 12 emnene, og la feilloggen bestemme hva som repeteres.</p>
+              </div>
+              <ol class="method-flow">
+                <li><span>01</span><div><strong>Orienter</strong><p>Se mål og sammenheng før detaljene.</p></div></li>
+                <li><span>02</span><div><strong>Forstå</strong><p>Arbeid aktivt med video og tekst.</p></div></li>
+                <li><span>03</span><div><strong>Hent frem</strong><p>Test deg uten å se på fasiten.</p></div></li>
+                <li><span>04</span><div><strong>Anvend</strong><p>Løs oppgaver og forklar metoden høyt.</p></div></li>
+              </ol>
+            </section>
+
+            <section class="panel coverage-section" aria-labelledby="coverage-title">
+              <div class="section-heading">
+                <div><span class="eyebrow">KILDE- OG DEKNINGSAUDIT</span><h2 id="coverage-title">Hva denne versjonen faktisk bygger på</h2></div>
+              </div>
+              <div id="coverage-content"></div>
+            </section>
+          </section>
+
+          <section class="view" id="view-goals" data-view="goals" aria-labelledby="goals-title" hidden>
+            <div class="page-heading">
+              <div><span class="eyebrow">MÅLREISEN</span><h1 id="goals-title">Se at du faktisk kommer fremover</h1><p>Hver avkrysning teller: en sett video, gjennomarbeidet fil, løst oppgavesett, fullført quiz eller egen studieøkt. Fremdriften lagres lokalt og synkroniseres til Supabase når du er innlogget.</p></div>
+              <div class="heading-metric"><strong id="goal-overall-value">0 %</strong><span>av H26-læringsløpet</span></div>
+            </div>
+
+            <section class="goal-hero panel" aria-labelledby="weekly-goal-title">
+              <div class="goal-weekly-ring" id="goal-weekly-ring" style="--progress:0" aria-hidden="true"><span><strong id="goal-weekly-ring-value">0</strong><small>av 8</small></span></div>
+              <div class="goal-hero-copy">
+                <span class="eyebrow">NÆRMESTE DELMÅL</span>
+                <h2 id="weekly-goal-title">Ukens arbeidssteg</h2>
+                <p id="goal-weekly-message">Start med én avkrysning. Små, ferdige steg slår lange økter uten tydelig sluttpunkt.</p>
+                <div class="progress-track"><span id="goal-weekly-bar"></span></div>
+                <small id="goal-weekly-detail">0 av 8 arbeidssteg fullført denne uken</small>
+              </div>
+              <form class="goal-settings" id="goal-settings-form">
+                <label for="weekly-target"><span>Ukentlig mål</span><select id="weekly-target"><option value="5">5 steg</option><option value="8">8 steg</option><option value="10">10 steg</option><option value="12">12 steg</option><option value="15">15 steg</option></select></label>
+                <label for="goal-target-date"><span>Måldato</span><input id="goal-target-date" type="date"></label>
+                <small id="goal-days-left">–</small>
+              </form>
+            </section>
+
+            <div class="goal-stat-grid" aria-label="Fremdriftsdetaljer">
+              <article><span>Ressurser ferdig</span><strong id="goal-stat-resources">0 / 0</strong><small>H26-relevante videoer, filer og oppgavesett</small></article>
+              <article><span>Egne økter ferdig</span><strong id="goal-stat-tasks">0</strong><small>selvvalgte arbeidssteg</small></article>
+              <article><span>Quiz gjennomført</span><strong id="goal-stat-quizzes">0</strong><small>fullførte fagtester</small></article>
+              <article><span>Aktive studiedager</span><strong id="goal-stat-days">0</strong><small>registrerte dager</small></article>
+            </div>
+
+            <div class="goal-work-grid">
+              <section class="panel goal-checklist-panel" aria-labelledby="goal-next-title">
+                <div class="section-heading"><div><span class="eyebrow">NESTE AVKRYSNINGER</span><h2 id="goal-next-title">En konkret arbeidsliste</h2></div><button class="text-button" type="button" data-go="modules">Se alle <svg><use href="#icon-arrow"/></svg></button></div>
+                <p class="helper-text">Listen henter først egne planlagte økter og deretter de neste H26-relevante ressursene. Kryss av først når du kan forklare hovedpoenget uten støtte. Feiltrykk? Fjern krysset igjen under «Nylig fullført» – ingenting låses.</p>
+                <div class="goal-action-list" id="goal-next-list"></div>
+                <section class="goal-recent" id="goal-recent-section" aria-labelledby="goal-recent-title" hidden>
+                  <div class="goal-recent-heading"><div><span class="eyebrow">ANGRE ELLER KONTROLLER</span><h3 id="goal-recent-title">Nylig fullført</h3></div><small>Fjern krysset hvis noe ble markert ved en feil.</small></div>
+                  <div class="goal-action-list" id="goal-recent-list"></div>
+                </section>
+              </section>
+
+              <section class="panel goal-custom-panel" aria-labelledby="goal-custom-title">
+                <div class="section-heading"><div><span class="eyebrow">EGNE ARBEIDSSTEG</span><h2 id="goal-custom-title">Legg til det du vil få gjort</h2></div></div>
+                <form class="goal-task-form" id="goal-task-form">
+                  <label for="goal-task-type"><span>Type</span><select id="goal-task-type"><option value="session">Studieøkt</option><option value="video">Video</option><option value="assignment">Oppgave</option><option value="reading">Lesing/rapport</option><option value="repetition">Repetisjon</option></select></label>
+                  <label for="goal-task-title"><span>Hva skal gjøres?</span><input id="goal-task-title" type="text" maxlength="120" required placeholder="F.eks. løs oppgave 32 uten fasit"></label>
+                  <label for="goal-task-date"><span>Dato</span><input id="goal-task-date" type="date"></label>
+                  <button class="button button-primary" type="submit"><svg><use href="#icon-plus"/></svg> Legg til steg</button>
+                </form>
+                <ul class="goal-task-list" id="goal-task-list"></ul>
+              </section>
+            </div>
+
+            <section class="panel goal-module-panel" aria-labelledby="goal-modules-title">
+              <div class="section-heading"><div><span class="eyebrow">12 DELMÅL</span><h2 id="goal-modules-title">Emne for emne</h2></div><p>Et emne er fullført når alle H26-relevante ressurser i emnet er krysset av.</p></div>
+              <div class="goal-module-list" id="goal-module-list"></div>
+            </section>
+          </section>
+
+          <section class="view" id="view-modules" data-view="modules" aria-labelledby="modules-title" hidden>
+            <div class="page-heading">
+              <div><span class="eyebrow">PENSUMKART</span><h1 id="modules-title">12 emneleksjoner</h1><p id="modules-intro">Velg ett emne, les den korte kapittelstarteren, følg «Start her», og arbeid deg videre til mestringskravet. Nettsiden peker alltid ut neste anbefalte handling.</p></div>
+              <div class="heading-metric"><strong id="module-progress-value">0 %</strong><span>samlet progresjon</span></div>
+            </div>
+
+            <section class="module-guide" aria-labelledby="module-guide-title">
+              <div class="module-guide-copy">
+                <span class="eyebrow">SLIK BRUKER DU EMNENE</span>
+                <h2 id="module-guide-title">Én tydelig arbeidsflyt – hver gang</h2>
+                <p>Du trenger ikke lese alt på én gang. Åpne ett emne, bruk 5–10 minutter på kapittelstarteren og la «Start her»-kortet styre neste steg.</p>
+              </div>
+              <ol class="module-guide-steps">
+                <li><span>1</span><strong>Les kapittelstarten</strong><small>Få mental modell og H26-grense først.</small></li>
+                <li><span>2</span><strong>Følg neste handling</strong><small>Åpne ressursen siden peker ut.</small></li>
+                <li><span>3</span><strong>Tren uten støtte</strong><small>Bruk arbeidsflyt og feilfeller.</small></li>
+                <li><span>4</span><strong>Bestå kontrollen</strong><small>Sjekk mestringskravet før du går videre.</small></li>
+              </ol>
+            </section>
+
+            <div class="toolbar" aria-label="Filtrer emneoversikt">
+              <div class="filter-group" role="group" aria-label="Vis ressurser">
+                <button class="filter-chip is-active" type="button" data-material-filter="all" aria-pressed="true">Alle</button>
+                <button class="filter-chip" type="button" data-material-filter="video" aria-pressed="false">Video</button>
+                <button class="filter-chip" type="button" data-material-filter="file" aria-pressed="false">Filer</button>
+                <button class="filter-chip" type="button" data-material-filter="assignment" aria-pressed="false">Oppgaver</button>
+              </div>
+              <label class="scope-filter" for="scope-filter"><span>Pensumstatus</span><select id="scope-filter"><option value="all">Alle statuser</option><option value="kjerne">Kjernepensum</option><option value="kjerne_med_avgrensning">Kjerne · avgrenset</option><option value="forsta_konseptet">Forstå konseptet</option><option value="ikke_pensum">Ikke pensum H26</option><option value="ovingskilde">Eldre øvingskilder</option></select></label>
+              <label class="inline-search" for="module-search"><svg aria-hidden="true"><use href="#icon-search"/></svg><input id="module-search" type="search" aria-label="Søk i emneoversikten" placeholder="Søk i emneoversikten"></label>
+            </div>
+            <div class="module-list" id="module-list"></div>
+          </section>
+
+          <section class="view" id="view-notes" data-view="notes" aria-labelledby="notes-title" hidden>
+            <div class="page-heading">
+              <div><span class="eyebrow">PLANSJER + DET SOM SIES</span><h1 id="notes-title">41 forelesningsnotater</h1><p>Kompakte notater til hvert opptak, bygget av kapittelplansjene, kursfilene og foreleserens muntlige presiseringer. Dette er faglige synteser – ikke ordrette transkripsjoner.</p></div>
+              <a class="button button-quiet" href="notes/BED2-H26-forelesningsnotater.md" download>Last ned alle notatene</a>
+            </div>
+            <div class="toolbar notes-toolbar" aria-label="Filtrer forelesningsnotater">
+              <label class="scope-filter" for="note-module-filter"><span>Emne</span><select id="note-module-filter"><option value="all">Alle emner</option></select></label>
+              <label class="inline-search" for="note-search"><svg aria-hidden="true"><use href="#icon-search"/></svg><input id="note-search" type="search" aria-label="Søk i forelesningsnotater" placeholder="Søk i notatene"></label>
+            </div>
+            <div class="lecture-note-list" id="lecture-note-list"></div>
+          </section>
+
+          <section class="view" id="view-flashcards" data-view="flashcards" aria-labelledby="flashcards-title" hidden>
+            <div class="page-heading">
+              <div><span class="eyebrow">AKTIV GJENHENTING</span><h1 id="flashcards-title">90 flashcards</h1><p>Teori, arbeidsflyt, vanlige feil og eksamenskontroller – sortert i emnevise kortstokker.</p></div>
+              <div class="heading-metric"><strong id="flashcard-mastered">0</strong><span>kort mestret</span></div>
+            </div>
+
+            <div class="tool-layout">
+              <aside class="tool-sidebar panel" aria-labelledby="deck-heading">
+                <div class="section-heading"><div><span class="eyebrow">KORTSTOKK</span><h2 id="deck-heading">Velg emne</h2></div></div>
+                <label for="deck-select">Kortstokk</label>
+                <select id="deck-select"></select>
+                <div class="mini-stats"><span><strong id="deck-count">0</strong> kort</span><span><strong id="deck-left">0</strong> igjen</span></div>
+                <p class="helper-text">«Alle kortstokker» utelater det som er merket ikke pensum. Velg en egen kortstokk hvis du vil se avgrenset kontekst. Vurderingen lagres lokalt.</p>
+              </aside>
+
+              <div class="flashcard-workspace">
+                <div class="demo-label" id="flashcard-demo-label" hidden>TEKNISK DEMO · IKKE PENSUM</div>
+                <button class="flashcard" id="flashcard" type="button" aria-live="polite" aria-label="Flashcard. Trykk for å vise svaret.">
+                  <span class="flashcard-kicker" id="flashcard-kicker">SPØRSMÅL</span>
+                  <span class="flashcard-text" id="flashcard-text">Kortene blir tilgjengelige etter Canvas-gjennomgangen.</span>
+                  <span class="flashcard-hint" id="flashcard-hint">Trykk for å snu kortet</span>
+                </button>
+                <div class="flashcard-controls">
+                  <button class="button button-quiet" id="card-prev" type="button">Forrige</button>
+                  <span id="card-position">0 / 0</span>
+                  <button class="button button-quiet" id="card-next" type="button">Neste</button>
+                </div>
+                <fieldset class="confidence" id="confidence-controls">
+                  <legend>Hvor godt satt dette?</legend>
+                  <button type="button" data-confidence="again">Ta igjen</button>
+                  <button type="button" data-confidence="hard">Usikker</button>
+                  <button type="button" data-confidence="mastered">Satt!</button>
+                </fieldset>
+              </div>
+            </div>
+          </section>
+
+          <section class="view" id="view-quiz" data-view="quiz" aria-labelledby="quiz-title" hidden>
+            <div class="page-heading">
+              <div><span class="eyebrow">SELVTEST</span><h1 id="quiz-title">84 oppgaver</h1><p>45 egenformulerte eksamensoppgaver og 39 sikre teorioppgaver fra den pedagogiske kunnskapsbasen – alle med løsningsforslag og typiske feller.</p></div>
+              <div class="heading-metric"><strong id="quiz-best">–</strong><span>beste fagresultat</span></div>
+            </div>
+
+            <div class="quiz-layout">
+              <section class="panel quiz-setup" id="quiz-setup" aria-labelledby="quiz-setup-title">
+                <div class="demo-label" id="quiz-demo-label" hidden>TEKNISK DEMO · IKKE PENSUM</div>
+                <span class="quiz-mark" aria-hidden="true">?</span>
+                <h2 id="quiz-setup-title">Klar for en sjekk?</h2>
+                <p id="quiz-setup-copy">Quizbanken fylles etter Canvas-gjennomgangen. Du kan prøve demomotoren nå.</p>
+                <label for="quiz-topic">Emne</label>
+                <select id="quiz-topic"></select>
+                <label for="quiz-length">Antall spørsmål</label>
+                <select id="quiz-length"><option value="5">Opptil 5</option><option value="10">Opptil 10</option><option value="all">Alle</option></select>
+                <button class="button button-primary button-wide" id="quiz-start" type="button">Start quiz <svg><use href="#icon-arrow"/></svg></button>
+              </section>
+
+              <section class="panel quiz-player" id="quiz-player" hidden aria-live="polite">
+                <div class="quiz-topline"><span id="quiz-progress-label">Spørsmål 1 av 1</span><strong id="quiz-score-label">0 riktige</strong></div>
+                <div class="progress-track"><span id="quiz-progress-bar"></span></div>
+                <div id="quiz-question"></div>
+              </section>
+
+              <section class="panel quiz-result" id="quiz-result" hidden aria-live="polite">
+                <span class="result-ring" id="result-ring">0%</span>
+                <h2 id="result-title">Quiz fullført</h2>
+                <p id="result-copy"></p>
+                <div class="result-actions"><button class="button button-primary" id="quiz-restart" type="button">Prøv igjen</button><button class="button button-quiet" type="button" data-go="modules">Gå til emner</button></div>
+              </section>
+            </div>
+          </section>
+
+          <section class="view" id="view-formulas" data-view="formulas" aria-labelledby="formulas-title" hidden>
+            <div class="page-heading">
+              <div><span class="eyebrow">HURTIGOPPSLAG</span><h1 id="formulas-title">Formelark</h1><p>72 søkbare formler, broer og kontrolligninger fra teorimaterialet og eksamensanalysen.</p></div>
+              <div class="heading-metric"><strong id="formula-count">0</strong><span>verifiserte oppslag</span></div>
+            </div>
+            <div class="toolbar formula-toolbar">
+              <label class="inline-search formula-search" for="formula-search"><svg aria-hidden="true"><use href="#icon-search"/></svg><input id="formula-search" type="search" placeholder="Søk etter formel eller begrep"></label>
+              <div class="filter-group" id="formula-filters" role="group" aria-label="Filtrer formelark"></div>
+            </div>
+            <div class="formula-grid" id="formula-grid"></div>
+          </section>
+
+          <section class="view" id="view-plan" data-view="plan" aria-labelledby="plan-title" hidden>
+            <div class="page-heading">
+              <div><span class="eyebrow">FREMDRIFT</span><h1 id="plan-title">Studieplan</h1><p>Trykk på en uke for å se nøyaktig hva du bør gjøre: rekkefølge, videoer, filer, oppgaver, tidsbruk og ferdigkriterium.</p></div>
+              <div class="heading-metric"><strong id="plan-completed">0 / 0</strong><span>egne oppgaver fullført</span></div>
+            </div>
+
+            <div class="plan-grid">
+              <section class="panel" aria-labelledby="recommended-plan-title">
+                <div class="section-heading"><div><span class="eyebrow">ANBEFALT LØP</span><h2 id="recommended-plan-title">Fagspesifikk plan</h2></div></div>
+                <div id="recommended-plan"></div>
+              </section>
+              <section class="panel task-panel" aria-labelledby="my-tasks-title">
+                <div class="section-heading"><div><span class="eyebrow">MIN PLAN</span><h2 id="my-tasks-title">Egne studieoppgaver</h2></div></div>
+                <form class="task-form" id="task-form">
+                  <label class="sr-only" for="task-input">Ny studieoppgave</label>
+                  <input id="task-input" type="text" maxlength="120" required placeholder="F.eks. repeter en modul">
+                  <label class="sr-only" for="task-date">Dato</label>
+                  <input id="task-date" type="date">
+                  <button class="button button-primary" type="submit" aria-label="Legg til studieoppgave"><svg><use href="#icon-plus"/></svg><span>Legg til</span></button>
+                </form>
+                <ul class="task-list" id="task-list"></ul>
+              </section>
+            </div>
+          </section>
+        </div>
+
+        <footer class="site-footer">
+          <span>BED2 Læringsrom · lokal reserve + Supabase-synk</span>
+          <span id="footer-status">Canvas-innhold er ikke importert ennå.</span>
+        </footer>
+      </main>
+    </div>
+
+    <dialog class="auth-dialog" id="auth-dialog" aria-labelledby="auth-title">
+      <div class="auth-modal">
+        <div class="auth-heading"><div><span class="eyebrow">SUPABASE-SYNK</span><h2 id="auth-title">Skylagring</h2></div><button class="icon-button" id="auth-close" type="button" aria-label="Lukk skylagring"><svg><use href="#icon-close"/></svg></button></div>
+        <p class="auth-intro">Logg inn for å synkronisere Målreisen, fullførte ressurser, flashcard-status, quizresultater og egne studieoppgaver mellom enhetene dine. Lokal lagring beholdes som reserve.</p>
+        <div id="auth-signed-out">
+          <form class="auth-form" id="auth-form">
+            <label for="auth-email">E-post</label>
+            <input id="auth-email" type="email" autocomplete="email" required placeholder="navn@eksempel.no">
+            <label for="auth-password">Passord</label>
+            <input id="auth-password" type="password" autocomplete="current-password" minlength="8" required placeholder="Minst 8 tegn">
+            <button class="button button-primary" type="submit">Logg inn og synkroniser</button>
+            <button class="button button-quiet" id="auth-signup" type="button">Opprett konto</button>
+          </form>
+          <small class="auth-help">Ved ny konto kan Supabase be deg bekrefte e-postadressen før første innlogging.</small>
+        </div>
+        <div class="auth-signed-in" id="auth-signed-in" hidden>
+          <div><span class="eyebrow">INNLOGGET SOM</span><strong id="auth-user-email">–</strong></div>
+          <div class="auth-actions"><button class="button button-primary" id="cloud-sync-now" type="button">Synkroniser nå</button><button class="button button-quiet" id="auth-signout" type="button">Logg ut</button></div>
+        </div>
+        <p class="auth-message" id="auth-message" role="status" aria-live="polite"></p>
+      </div>
+    </dialog>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  </body>
+</html>
